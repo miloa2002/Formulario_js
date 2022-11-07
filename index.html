@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <title>Validar formulario</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="icons/css/font-awesome.min.css">
+  <link rel="stylesheet" href="css/estyle.css">
+</head>
+<body>
+
+  <div class="contenido">
+    <div class="contenido__container">
+      <div class="contenido__grid">
+        <div class="text">
+          <h1 class="text__titulo">Aprende a codificar mirando a los demás</h1>
+          <p class="text__parrafo">Vea cómo los desarrolladores experimentados resuelven problemas en tiempo real. Ver tutoriales con guión es excelente, pero comprender cómo piensan los desarrolladores es invaluable.</p>
+        </div>
+        <div class="formulario">
+          <div class="formulario__titulo">
+            <p class="formulario__oferta">Pruébalo gratis 7 días <span class="formulario__off">los $20/mes a partir de entonces</span></p>
+          </div>
+          <form id="form" class="formulario__content">
+            <div class="campo__form">
+              <input id="nombre" name="nombre"  type="text" placeholder="Primer nombre">
+              <i id="input__icon" class="fa fa-exclamation-circle" aria-hidden="true"></i>
+            </div>
+            <div class="campo__form">
+              <input id="apellido" name="apellido"  type="text" placeholder="Apellido"> 
+              <i id="input__icon" class="fa fa-exclamation-circle" aria-hidden="true"></i>
+            </div>
+            <div class="campo__form">
+              <input id="email"  type="email" name="email" placeholder="Dirección de correo electrónico">
+              <i id="input__icon" class="fa fa-exclamation-circle" aria-hidden="true"></i>
+            </div>
+            <div class="campo__form">
+              <input id="contraseña" name="contrasena"  type="password" placeholder="Contraseña">
+              <i id="input__icon" class="fa fa-exclamation-circle" aria-hidden="true"></i>
+            </div>
+            <div class="campo__form">
+              <input id="btnEnviar" class="btn__enviar" type="submit"  value="Reclama tu prueba gratis">
+            </div>
+            <div class="formulario__info">
+              <p>Al hacer click en el botón, aceptas nuestros <span class="formulario__info--span">Términos y condiciones</span></p>
+            </div>
+          </form>
+        </div>
+        </div>
+    </div>
+  </div>
+
+  <script src="js/app.js"></script>
+</body>
+</html>
